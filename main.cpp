@@ -49,6 +49,6 @@ Corredor ingresoCorredor()
     cout<<"Ingrese el tiempo del corredor: ";
     cin>>temp.tiempo;
     cout<<"Ingrese el nombre del corredor: ";
-    getline(cin, temp.nombre);
+    getline(cin >> ws, temp.nombre);
     return temp;
 }
