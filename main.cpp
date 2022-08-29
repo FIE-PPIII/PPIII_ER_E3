@@ -11,9 +11,11 @@ typedef struct corredor
 int main()
 {
     Corredor temp;
-    cout<<"Ingrese el nombre del corredor"<<endl;
+    cout<<"Ingrese el nombre del corredor: ";
     getline(cin, temp.nombre);
-    //cout<<"El nombre del corredor es "<<temp.nombre<<endl;
+    cout<<"Ingrese el tiempo del corredor: ";
+    cin>>temp.tiempo;
+    //cout<<temp.nombre<<" corrio durante "<<temp.tiempo<<" minutos."<<endl;
 
     return 0;
 }
