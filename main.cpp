@@ -1,5 +1,5 @@
 #include <iostream>
-#define CORREDORES 5
+#define CORREDORES 10
 
 using namespace std;
 
