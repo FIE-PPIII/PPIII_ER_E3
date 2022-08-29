@@ -27,7 +27,7 @@ int main()
         if (temp.tiempo < pri.tiempo){
             seg = pri;
             pri = temp;
-        } else if (temp.tiempo < seg.tiempo)
+        } else if (temp.tiempo < seg.tiempo or (pri.tiempo == seg.tiempo && pri.nombre == seg.nombre))
             seg = temp;
         else if (temp.tiempo > ult.tiempo)
             ult = temp;
